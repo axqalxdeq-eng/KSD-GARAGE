@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KSD GARAGE – Kalendarz Mechanika</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1 class="logo">KSD GARAGE</h1>
+</header>
+
+<section class="controls">
+<input id="search" placeholder="🔍 Szukaj klienta lub auta..." />
+<button id="refresh">🔄 Odśwież</button>
+<span id="clock"></span>
+</section>
+
+<section class="calendar-container">
+<div class="nav">
+<button id="prevMonth">←</button>
+<h2 id="month"></h2>
+<button id="nextMonth">→</button>
+</div>
+<div id="calendar"></div>
+</section>
+
+<section class="form">
+<input id="date" type="date" />
+<input id="client" placeholder="👤 Klient" />
+<input id="car" placeholder="🚗 Samochód" />
+<textarea id="desc" placeholder="🛠 Opis naprawy"></textarea>
+<button id="addBtn">➕ Dodaj termin</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
